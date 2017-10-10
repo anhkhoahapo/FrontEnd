@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/quicksand.ttf');
+}
+
+@font-face {
+	font-family: Lato;
+	src: url('../fonts/Lato-Regular.ttf');
+}
+
+*,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+
+button {
+	background: rgba(0,0,0,0);
+	border-radius: 100px;
+  border: none;
+  height: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.navbar {
+	width: 100%;
+  height: 80px;
+	display: flex;
+	background: rgba(0,0,0,0);
+	position: fixed;
+	top: 0;
+}
+
+.nav-left {
+	display: flex;
+	width: 50%;
+}
+
+.nav-right {
+	display: flex;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.nav-link {
+	height: 40px;
+	margin: 20px 23px;
+}
+
+.nav-link>a {
+	width: 60px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #673ab7;
+  margin-top: 10px;
+  line-height: 40px;
+}
+
+.nav-link>button {
+	width: 125px;
+}
+
+.nav-link>button>a {
+	text-transform: uppercase;
+}
+
+#signup {
+	background-color: #00bcd4;
+}
+
+#signup>a {
+	color: white;
+}
+
+#home {
+	width: 100%;
+
+}
+
+.sub-section {
+	width: 50%;
+	height: 1080px;
+	position: relative;
+}
+
+#home>.sub-section.left > .info {
+	width: 50%;
+	margin: 173px 30% 0 30%;
+}
+
+#home>.sub-section.left > .info div {
+	margin:82px 0px;
+}
+
+#home>.sub-section.left > .info .intro {
+	font-family: Quicksand;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: left;
+  color: #00bcd4;
+}
+
+#home>.sub-section.left > .info .detail-intro {
+	font-family: Lato;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #673ab7;
+}
+
+#btn-see-more {
+	width: 136px;
+	border: solid 2px #673ab7;
+}
+
+#btn-see-more > a {
+	font-size: 1em;
+	font-family: Lato;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #673ab7;
+}
+
+#btn-try {
+	width: 193px;
+  background-color: #e91e63;
+}
+
+#btn-try > a {
+	color: white;
+}
+
+#home>.sub-section.right {
+	z-index: -1;
+	background-image: url("../img/slide-section1.jpg");
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+@media screen and (max-width: 1600px) {
+	.nav-link {
+		margin-left: 10px;
+		margin-right: 18px;
+	}
+
+	.nav-link>a {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	:not(#logo).nav-link>a {
+		display: none;
+	}
+}
