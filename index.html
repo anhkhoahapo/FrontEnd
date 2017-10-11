@@ -1,125 +1,275 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>HapoJC</title>
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
-	<link rel="stylesheet" href="assets/css/style.css">
 
+<head>
+  <meta charset="UTF-8">
+  <title>HapoJC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-	<header>
-		<div class="navbar">
-			<div class="nav-left">
-				<div id="logo" class="nav-link">
-					<a href="#home">
+  <header>
+    <div class="navbar">
+      <div class="nav-left">
+        <div id="logo" class="nav-link">
+          <a href="#home">
 						<img src="assets/img/logo.png" alt="Logo" height="40">
 					</a>
-				</div>
-				<div class="nav-link">
-					<a href="#home">Bảng tin</a>
-				</div>
-				<div class="nav-link">
-					<a href="#courses">Khóa học</a>
-				</div>
-				<div class="nav-link">
-					<a href="#bookshelf">Tủ sách</a>
-				</div>
-				<div class="nav-link">
-					<a href="#student">Học viên</a>
-				</div>
-					<div class="nav-link">
-						<a href="#teacher">Giảng viên</a>
-				</div>
-				<div class="nav-link">
-					<a href="#blog">Blog</a>
-				</div>
-				<div class="nav-link">
-					<a href="#contact">Liên hệ</a>
-				</div>
-			</div>
+        </div>
+        <div class="nav-link">
+          <a href="#home">Bảng tin</a>
+        </div>
+        <div class="nav-link">
+          <a href="#courses">Khóa học</a>
+        </div>
+        <div class="nav-link">
+          <a href="#bookshelf">Tủ sách</a>
+        </div>
+        <div class="nav-link">
+          <a href="#student">Học viên</a>
+        </div>
+        <div class="nav-link">
+          <a href="#teacher">Giảng viên</a>
+        </div>
+        <div class="nav-link">
+          <a href="#blog">Blog</a>
+        </div>
+        <div class="nav-link">
+          <a href="#contact">Liên hệ</a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="nav-link">
+          <button type="button" id="login">
+            <a href="#">Đăng nhập</a>
+          </button>
+        </div>
+        <div class="nav-link">
+          <button type="button" id="signup">
+            <a href="#">Đăng ký</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="home">
+    <div class="sub-section left">
+      <div class="info">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="Logo" height="60">
+        </div>
+        <div class="intro">
+          <p>Summer is often synonymous with beachs, ballparks and barbecues
+          </p>
+        </div>
+        <div class="detail-intro">
+          <p>Summer is often synonymous with beaches, ballparks and barbecues, all offering tempting snacks and treats. To many women who are watching their weight, the back-to-school season is an ideal time to enroll in their own “Making Smarter Food Choices 101″ class and refocus on a balanced diet and healthy lifestyle.</p>
+        </div>
+        <div>
+          <button type="button" class="btn-see-more">
+            <a href="#courses">Xem tiếp &rarr;</a>
+          </button>
+          <button type="button" class="btn-try">
+            <a href="#">Đăng ký học thử &#8608;</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="sub-section right slider">
+      <button type="button" class="btn-prev">
+        &larr; Prev
+      </button>
+      <button type="button" class="btn-next">
+        Next &rarr;
+      </button>
+    </div>
+  </section>
+  <section id="courses">
+    <div class="card-container">
+      <div class="card N5">
+        <div class="img">
+          <img src="assets/img/N5.png" alt="">
+        </div>
+        <div class="title">
+          <h1>Làm quen</h1>
+        </div>
+        <div class="desc">
+          <p>Khoá học dành cho những bạn chưa biết gì về tiếng Nhật. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N5.</p>
+        </div>
+        <div class="btns">
+          <button type="button">
+            <a href="#">đăng ký học thử &rarr;</a>
+          </button>
+        </div>
+      </div>
+      <div class="card N4">
+        <div class="img">
+          <img src="assets/img/N4.png" alt="">
+        </div>
+        <div class="title">
+          <h1>Giao tiếp cơ bản</h1>
+        </div>
+        <div class="desc">
+          <p>Khoá học dành cho các bạn đã hoàn thành khoá học Làm quen với tiếng Nhật. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N4, có thể tự giới thiệu bản thân bằng tiếng Nhật và giao tiếp mức độ đơn giản.</p>
+        </div>
+        <div class="btns">
+          <button type="button">
+            <a href="#">đăng ký học thử &rarr;</a>
+          </button>
+        </div>
+      </div>
+      <div class="card N3">
+        <div class="img">
+          <img src="assets/img/N3.png" alt="">
+        </div>
+        <div class="title">
+          <h1>Giao tiếp nâng cao</h1>
+        </div>
+        <div class="desc">
+          <p>Khoá học dành cho các bạn đã hoàn thành khoá học Giao tiếp cơ bản. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N3, có thể giao tiếp thường ngày trôi chảy bằng tiếng Nhật.</p>
+        </div>
+        <div class="btns">
+          <button type="button">
+            <a href="#">đăng ký học thử &rarr;</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bookshelf">
+    <div class="sub-section left">
+      <ul class="intro-list">
+        <li><span class="icons icon-star"></span>Phương pháp học hoàn toàn mới</li>
+        <li><span class="icons icon-badge"></span>Giảng viên trình độ cao</li>
+        <li><span class="icons icon-trophy"></span>Giáo trình mua bản quyền từ Nhật</li>
+        <li><span class="icons icon-like"></span>Chương trình học trực quan</li>
+        <li><span class="icons icon-clock"></span>Thời gian thực hành nhiều</li>
+      </ul>
+    </div>
+    <div class="sub-section right">
+      <div id="img-coffee" class="img">
+        <img src="./assets/img/photo-1500989145603-8e7ef71d639e.jpg" alt="img-coffee">
+      </div>
+      <div id="img-writing" class="img">
+        <img src="./assets/img/pexels-photo-574285.jpg" alt="img-writing">
+      </div>
+      <div id="img-mac" class="img">
+        <img src="./assets/img/mac-glasses.jpg" alt="img-mac">
+      </div>
+    </div>
+  </section>
+  <section id="student">
+    <div class="card-container">
+      <div class="card">
+        <div class="img">
+          <img src="" alt="">
+        </div>
+        <div class="title">
+          <h1>Đăng ký</h1>
+        </div>
+      </div>
 
-			<div class="nav-right">
-				<div class="nav-link">
-					<button id="login">
-						<a href="#">Đăng nhập</a>
-					</button>
-				</div>
-					<div class="nav-link">
-						<button id="signup">
-							<a href="#">Đăng ký</a>
-						</button>
-				</div>
-			</div>
-		</div>
-	</header>
+      <div class="card">
+        <div class="img">
+          <img src="" alt="">
+        </div>
+        <div class="title">
+          <h1>HapoJC liên hệ tư vấn</h1>
+        </div>
+      </div>
 
-	<section id="home">
+      <div class="card">
+        <div class="img">
+          <img src="" alt="">
+        </div>
+        <div class="title">
+          <h1>Kiểm tra xếp lớp</h1>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img">
+          <img src="" alt="">
+        </div>
+        <div class="title">
+          <h1>Chọn lịch học</h1>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img">
+          <img src="" alt="">
+        </div>
+        <div class="title">
+          <h1>Đi học</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="teacher">
+    <div class="sub-section left"></div>
+    <div class="sub-section right">
+      <div class="teacher-info">
+        <h1 class="teacher-name">
+          <span>Giảng viên </span> Nguyễn Thị Mai Linh
+        </h1>
+        <p class="teacher-detail">
+          Unless you have the dubious pleasure of living right next door to an airport one of the biggest downsides of going on holiday is catching a flight at an ungodly hour of the day. While driving half asleep at 4.00 am, with a nagging doubt you have forgot something may be some holidaymaker’s idea of fun – for most it sounds like a bad way to start your holiday. However, help is at hand in the form of Airport Hotels, where you can spend a relaxed evening – and even afford an extra hour or two in bed before leaving. Airport hotels may not enjoy the best of reputations. In many peoples mind they are ranked alongside train station pubs – filled with chain smoking business men in cheap suits. However, while there is certainly a convincing argument to avoid train station pubs (you have to pay to get in the toilet for starters), airport hotels are a long way from their cheap and not-so-cheerful roots. These days the savvy traveller can pick up a great value deal at some excellent hotel accommodation situated close to their airport of departure.
+        </p>
+        <button type="button" class="btn-next">
+          Next &rarr;
+        </button>
+      </div>
+    </div>
+    <div class="sub-section overlay"></div>
+  </section>
+  <section id="blog">
+  </section>
+  <section id="contact">
 		<div class="sub-section left">
-			<div class="info">
-				<div class="logo">
-					<img src="assets/img/logo.png" alt="Logo" height="60">
-				</div>
+			<form class="form">
+			  <h1 class="form-title">Đăng ký tư vấn</h1>
+			  <div class="form-group">
+				  <label class="sr-only" for="txt-sender">Name</label>
+				  <span class="form-group-addon icon-user"></span>
+				  <input type="text" name="txt-sender" id="txt-sender" placeholder="Tên của bạn">
+  			</div>
+  			<div class="form-group">
+				  <label class="sr-only" for="txt-email">Email</label>
+				  <span class="form-group-addon icon-envelope"></span>
+				  <input type="text" name="txt-email" id="txt-email" placeholder="Email">
+  			</div>
+  			<div class="form-group">
+				  <label class="sr-only" for="txt-phone">Phone Number</label>
+				  <span class="form-group-addon icon-screen-smartphone"></span>
+				  <input type="text" name="txt-phone" id="txt-phone" placeholder="Số điện thoại">
+  			</div>
+  			<div class="form-group">
+				  <label class="sr-only" for="txt-course">Interested in course</label>
+				  <span class="form-group-addon icon-heart"></span>
+				  <input type="text" name="txt-course" id="txt-course" placeholder="Khoá học bạn quan tâm">
+  			</div>
+  			<div class="form-group fg-large">
+					<span class="form-group-addon icon-speech"></span>
+					<label class="sr-only" for="txt-message">Message</label>
+				  <textarea placeholder="Để lại tin nhắn"></textarea>
+  			</div>
+  			<button type="submit" class="btn-send">gửi đăng ký &rarr;</button>
 
-				<div class="intro">
-					<p>Summer is often synonymous with beachs, ballparks and barbecues
-					</p>
-				</div>
-
-				<div class="detail-intro">
-					<p>Summer is often synonymous with beaches, ballparks and barbecues, all offering tempting snacks and treats. To many women who are watching their weight, the back-to-school season is an ideal time to enroll in their own “Making Smarter Food Choices 101″ class 
-and refocus on a balanced diet and healthy lifestyle.</p>
-				</div>
-				
-				<div>
-					<button id="btn-see-more">
-						<a href="#courses">Xem tiếp</a>
-					</button>
-					<button id="btn-try">
-						<a href="#">Đăng ký học thử</a>
-					</button>
-				</div>
-				
-			</div>
+  		</form>
 		</div>
-		<div class="sub-section right">
-			<button style="button"></button>
-		</div>
-	</section>
 
-	<section id="courses">
-		
-	</section>
+		<div class="sub-section right"></div>
 
-	<section id="courses">
-		
-	</section>
+  </section>
+  <button type="button" class="btn-support">
+    <a href="#">Hỗ trợ ?</a>
+  </button>
 
-	<section id="bookshelf">
+  <footer>
 		
-	</section>
-
-	<section id="student">
-		
-	</section>
-
-	<section id="teacher">
-		
-	</section>
-
-	<section id="blog">
-		
-	</section>
-
-	<section id="contact">
-		
-	</section>
-
-	<footer>
-		
-	</footer>
-	
-	
+  </footer>
 </body>
+
 </html>
