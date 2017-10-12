@@ -18,7 +18,8 @@ html,
 body {
   margin: 0;
   padding: 0;
- 	/*transition: all 0.5s;*/
+  font-family: Lato;
+  /*transition: all 0.5s;*/
 }
 
 body,
@@ -38,8 +39,8 @@ button:hover {
   cursor: pointer;
 }
 
-button:active {
-	outline: none;
+button:focus {
+  outline: none;
 }
 
 a {
@@ -48,11 +49,11 @@ a {
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 img {
-	width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -67,16 +68,16 @@ section {
 }
 
 .form .form-group {
-	display: block;
-	margin: 20px;
+  display: block;
+  margin: 20px;
 }
 
-.form .form-group > * {
-	display: inline-block;
+.form .form-group>* {
+  display: inline-block;
 }
 
 .sr-only {
-	display: none !important;
+  display: none !important;
 }
 
 .left {
@@ -88,13 +89,14 @@ section {
 }
 
 .row {
-	width: 100%;
-	display: flex;
-	margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .col {
-	flex: 1;
+  flex: 1;
 }
 
 .navbar {
@@ -126,8 +128,7 @@ section {
   margin-right: 23px;
 }
 
-.nav-link > a {
-  width: 60px;
+.nav-link>a {
   height: 17px;
   font-family: Lato;
   font-size: 14px;
@@ -137,24 +138,24 @@ section {
   /*line-height: 40px;*/
 }
 
-.nav-link > button {
+.nav-link>button {
   width: 125px;
 }
 
-.nav-link > button > a {
+.nav-link>button>a {
   text-transform: uppercase;
 }
 
 #logo img {
-	height: 40px;
-	width: auto;
+  height: 40px;
+  width: auto;
 }
 
 #signup {
   background-color: #00bcd4;
 }
 
-#signup > a {
+#signup>a {
   color: white;
 }
 
@@ -162,16 +163,16 @@ section {
   width: 100%;
 }
 
-#home > .sub-section.left > .info {
+#home>.sub-section.left>.info {
   width: 50%;
   margin: 100px 30% 0 30%;
 }
 
-#home > .sub-section.left > .info div {
+#home>.sub-section.left>.info div {
   margin: 50px 0px;
 }
 
-#home > .sub-section.left > .info .intro {
+#home>.sub-section.left>.info .intro {
   font-family: Quicksand;
   font-size: 2.3em;
   font-weight: bold;
@@ -179,14 +180,13 @@ section {
   color: #00bcd4;
 }
 
-#home > .sub-section.left > .info .detail-intro {
-  font-family: Lato;
+#home>.sub-section.left>.info .detail-intro {
   font-size: 1em;
   line-height: 1.5em;
   color: #673ab7;
 }
 
-#home > .sub-section.right {
+#home>.sub-section.right {
   background-image: url("../img/slide-section1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,8 +194,8 @@ section {
 }
 
 .info .logo img {
-	height: 60px;
-	width: auto;
+  height: 60px;
+  width: auto;
 }
 
 .btn-see-more {
@@ -204,9 +204,8 @@ section {
   border: solid 2px #673ab7;
 }
 
-.btn-see-more > a {
+.btn-see-more>a {
   font-size: 1em;
-  font-family: Lato;
   font-weight: bold;
   line-height: 1.14em;
   letter-spacing: 0.2px;
@@ -219,7 +218,7 @@ section {
   background-color: #e91e63;
 }
 
-.btn-try > a {
+.btn-try>a {
   font-size: 1em;
   color: white;
 }
@@ -309,7 +308,6 @@ section {
 }
 
 .card .desc p {
-  font-family: Lato;
   font-size: 16px;
   line-height: 1.5;
   text-align: justify;
@@ -372,7 +370,7 @@ section {
   color: #673ab7;
 }
 
-#bookshelf .intro-list li span {
+#bookshelf .intro-list li .icons {
   color: #ffc107;
   margin-right: 15px;
 }
@@ -383,7 +381,7 @@ section {
   position: absolute;
   top: 25%;
   left: 25%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
 
 #bookshelf #img-writing {
@@ -401,8 +399,8 @@ section {
   height: 25%;
   position: absolute;
   top: 67%;
-  left: 67%; 
-  transform: translate(-50%, -50%); 
+  left: 67%;
+  transform: translate(-50%, -50%);
 }
 
 #student .card-container {
@@ -462,7 +460,6 @@ section {
 }
 
 .teacher-info .teacher-detail {
-  font-family: Lato;
   font-size: 1.2em;
   line-height: 1.5;
   text-align: justify;
@@ -470,21 +467,21 @@ section {
 }
 
 .form {
-	width: 500px;
-	padding: 25px;
-	margin: 100px auto;
+  width: 500px;
+  padding: 25px;
+  margin: 100px auto;
 }
 
 .form .form-title {
-	font-family: VNFQuicksand;
+  font-family: VNFQuicksand;
   font-size: 2em;
   font-weight: bold;
   text-align: left;
-  color: #00bcd4;	
+  color: #00bcd4;
 }
 
 .form .form-group {
-	width: 450px;
+  width: 450px;
   height: 40px;
   border-radius: 25px;
   background-color: #ffffff;
@@ -493,114 +490,117 @@ section {
 }
 
 .form .form-group.fg-large {
-	height: 200px;
+  height: 200px;
 }
 
 .form .form-group input,
 .form .form-group textarea {
-	width: 400px;
-	margin: 0 auto;
-	height: 36px;
-	border: none;
+  width: 400px;
+  margin: 0 auto;
+  height: 36px;
+  border: none;
 }
 
 .form .form-group textarea {
-	margin-top: 10px
+  margin-top: 20px;
 }
 
 .form .form-group:hover {
-	box-shadow: 0 0 5px 0 #673ab7;
+  box-shadow: 0 0 5px 0 #673ab7;
   border: solid 2px #673ab7;
 }
 
 .form .form-group input:focus,
 .form .form-group textarea:focus {
-	outline: none;
+  outline: none;
 }
 
 .form .form-group .form-group-addon {
-	line-height: 36px;
-	font-family: simple-line-icons;
+  line-height: 36px;
+  font-family: simple-line-icons;
   font-size: 16px;
   color: #673ab7;
-	margin: auto;
-	margin-right: 20px;
+  margin: auto;
+  margin-right: 20px;
 }
 
 #blog {
-	background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 #blog .bubble {
-	margin: 100px 0;
-	position: relative;
-	border-radius: 30px;
+  margin: 100px 0;
+  position: relative;
+  border-radius: 30px;
   background-color: #ffffff;
   box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
-  font-family: Lato;
+  max-height: 250px;
 }
 
 .bubble .avatar {
-	position: absolute;
-	bottom: -50px;
-	right: 50px;
+  position: absolute;
+  bottom: -50px;
+  right: 50px;
 }
 
 .bubble .avatar,
 .bubble .avatar img {
-	width: 100px;
-	height: 100px;
-	border-radius: 100px;
-	background-color: #d8d8d8;
-	box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.3);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.3);
 }
 
 .bubble .comment {
-	padding: 20px;
+  padding: 20px;
+  max-height: 150px;
+  overflow-y: scroll;
+  padding-right: 20px;
 }
 
 .bubble .student {
-	margin-right: 150px;
-	text-align: right;
+  margin-right: 150px;
+  text-align: right;
 }
 
 .bubble .student .name {
-	text-transform: uppercase;
-	font-weight: normal;
-	font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
   line-height: 1.5;
   color: #000000;
 }
 
 #cmt_nhung.bubble {
-	margin-left: 20%;
+  margin-left: 20%;
 }
 
 #cmt_son.bubble {
-	margin-left: 30%;
+  margin-left: 30%;
 }
 
 #cmt_son2.bubble {
-	margin-left: 20%;
-	margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 30%;
 }
 
 #cmt_son3.bubble {
-	margin-left: 20%;
-	margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #contact .sub-section.right {
-	background-image: url("../img/map.png");
+  background-image: url("../img/map.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .btn-send {
-	float: right;
-	width: 160px;
+  float: right;
+  width: 160px;
   height: 50px;
   border-radius: 100px;
   background-color: #00bcd4;
@@ -608,36 +608,35 @@ section {
 }
 
 footer.footer {
-	width: 100%;
-	height: 800px;
+  width: 100%;
+  height: 800px;
   background-color: #00bcd4;
   padding: 100px;
   box-sizing: border-box;
 }
 
 .footer .logo {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .footer .logo img {
-	height: 60px;
-	width: auto;
+  height: 60px;
+  width: auto;
 }
 
 .list-link li {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .list-link li a,
 .footer .licenses a,
 #copyright p {
-	font-family: Lato;
-	text-align: left;
-	color: #ffffff;
-	font-size: 1.2em;
-	line-height: 1.5em;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 .list-link .title {
@@ -649,21 +648,21 @@ footer.footer {
 .footer .licenses,
 .footer .socials,
 #copyright p {
-	text-align: center;
-	margin: 50px 0;
+  text-align: center;
+  margin: 50px 0;
 }
 
 .footer .licenses a {
-	font-size: 1em;
-	margin-right: 30px;
+  font-size: 1em;
+  margin-right: 30px;
 }
 
 #copyright p {
-	font-size: 1em;
+  font-size: 1em;
 }
 
 .footer .socials a {
-	font-family: simple-line-icons;
+  font-family: simple-line-icons;
   font-size: 2em;
   letter-spacing: 0.4px;
   text-align: left;
@@ -683,52 +682,64 @@ footer.footer {
 }
 
 @media screen and (max-width: 1350px) {
-  .nav-link:not(#logo) > a {
+  .nav-link:not(#logo)>a {
     display: none;
   }
-  
-  #home > .sub-section.left > .info div {
+
+  #home>.sub-section.left>.info div {
     margin: 20px 0px;
   }
 
-  #home > .sub-section.left > .info .intro {
+  #home>.sub-section.left>.info .intro {
     font-size: 1.5em;
   }
 
-	#teacher .teacher-info {
-		margin-top: 50px;
-	}
-	
+  #teacher .teacher-info {
+    margin-top: 50px;
+  }
+
   .teacher-info .teacher-detail {
-  	font-size: 1em;
+    font-size: 1em;
   }
 
   .teacher-info .btn-next {
-  	display: none;
+    display: none;
   }
 
   #contact .sub-section.right {
-  	display: none;
+    display: none;
   }
 
   .footer * {
-  	font-size: 1em;
+    font-size: 1em;
+  }
+
+  .bubble .student {
+    margin-right: 10px;
+    text-align: right;
+  }
+
+  .bubble .avatar,
+  .bubble .avatar img {
+    display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #home > .sub-section.left > .info {
+  #home>.sub-section.left>.info {
     width: 70%;
     margin: 100px 15% 0 15%;
   }
 
-  #home > .sub-section.left .logo {
+  #home>.sub-section.left .logo {
     display: none;
   }
 
-  #courses > .card-container {
+  #courses>.card-container {
     padding: 0 30px;
   }
 
-
+  .row .col {
+    flex: 0 0 50%;
+  }
 }
