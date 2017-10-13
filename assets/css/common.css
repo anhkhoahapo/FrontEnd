@@ -1,0 +1,144 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /*transition: all 0.5s;*/
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 100px;
+  border: none;
+  height: 40px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  line-height: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}         
+
+section {
+  height: 800px;
+}
+
+.sub-section {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.form .form-group {
+  display: block;
+  margin: 20px;
+}
+
+.form .form-group>* {
+  display: inline-block;
+}
+
+.sr-only {
+  display: none !important;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.col {
+  flex: 1;
+}
+
+.btn-huge {
+  height: 50px;
+  padding: 0 30px;
+}
+
+.btn-lg {
+  height: 40px;
+  padding: 0 20px;
+}
+
+.btn-md {
+  height: 40px;
+  padding: 0 10px;
+}
+
+.btn-sm {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.c-blue {
+  color: #00bcd4;
+}
+
+.c-lipstick {
+  color: #e91e63;
+}
+
+.c-tomato {
+  color: #e91e63;
+}
+
+.c-bluey-purple {
+  color: #673ab7;
+}
+
+.c-white {
+  color: white;
+}
+
+.bg-green {
+  background-color: #b1d136;
+}
+
+.bg-blue {
+  background-color: #00bcd4;
+}
+
+.bg-lipstick {
+  background-color: #e91e63;
+}
+
+.bg-tomato {
+  background-color: #e91e63;
+}
+
+.bg-bluey-purple {
+  background-color: #673ab7;
+}
