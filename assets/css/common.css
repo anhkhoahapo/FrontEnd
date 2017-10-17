@@ -39,6 +39,7 @@ img {
 
 section {
     height: 100%;
+    box-sizing: border-box;
 }
 
 .btn {
@@ -58,7 +59,8 @@ section {
 
 .form .form-group {
     display: block;
-    margin: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .form .form-group>* {
@@ -88,7 +90,6 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
 }
 
 .col {
