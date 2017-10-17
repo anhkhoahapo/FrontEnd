@@ -41,6 +41,15 @@ section {
     height: 100%;
 }
 
+.btn {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
 .sub-section {
     width: 50%;
     height: 100%;
