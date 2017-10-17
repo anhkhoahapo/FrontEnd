@@ -17,9 +17,6 @@ button {
     border-radius: 100px;
     border: none;
     height: 40px;
-}
-
-button:hover {
     cursor: pointer;
 }
 
@@ -33,12 +30,11 @@ a {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
 }
 
 section {
@@ -61,7 +57,14 @@ section {
 }
 
 .sr-only {
-    display: none !important;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
 }
 
 .left {
@@ -159,7 +162,7 @@ section {
     border-color: #f44336;
 }
 
-.bg-bluey-purple {
+.bd-bluey-purple {
     border-color: #673ab7;
 }
 

@@ -13,13 +13,9 @@
     src: url('../fonts/vnf-quicksand-bold.ttf');
 }
 
-@font-face {
-    font-family: themify;
-    src: url('../fonts/themify.ttf');
-}
-
-body {
+html {
     font-family: Lato;
+    font-size: 16px;
 }
 
 .navbar {
@@ -47,21 +43,22 @@ body {
 
 .nav-link {
     height: 40px;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 
 .nav-link>a {
     height: 17px;
     font-family: Lato;
-    font-size: 14px;
+    font-size: 0.8rem;
     letter-spacing: 0.2px;
     text-align: left;
     color: #673ab7;
     /*line-height: 40px;*/
 }
 
-.nav-link>button>a {
+#login,
+#signup {
     text-transform: uppercase;
 }
 
@@ -80,7 +77,7 @@ body {
 
 #home>.sub-section.left>.info {
     width: 60%;
-    margin: 100px 15% 100px 25%;
+    margin: 60px 15% 100px 25%;
     padding: 10px;
 }
 
@@ -91,7 +88,7 @@ body {
 #home>.sub-section.left>.info .intro {
     position: relative;
     font-family: Quicksand;
-    font-size: 3.5em;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: left;
 }
@@ -110,24 +107,21 @@ body {
 #home-decorate-3 {
     bottom: 20px;
     right: -70px;
-    /*transform: translate(70%, 0);*/
 }
 
 #home-decorate-4 {
     bottom: 0;
     right: 0;
-    /*transform: translate(50%, 0);*/
 }
 
 #home-decorate-5 {
     bottom: 0;
     right: -60px;
-    /*transform: translate(50%, 0);*/
 }
 
 #home>.sub-section.left>.info .detail-intro {
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 #home .slider {
@@ -151,7 +145,6 @@ body {
     position: absolute;
     bottom: 5px;
     left: 0;
-    /*border: solid 2.5px #00bcd4;*/
 }
 
 #home .slider .dots .dot {
@@ -187,7 +180,6 @@ body {
 
 .info .logo img {
     height: 60px;
-    width: auto;
 }
 
 #btn-see-more {
@@ -196,21 +188,21 @@ body {
 }
 
 #btn-see-more>a {
-    font-size: 1em;
+    font-size: 0.8rem;
     font-weight: bold;
-    line-height: 1.14em;
+    line-height: 1.14rem;
     letter-spacing: 0.2px;
     text-align: left;
 }
 
 #btn-try>a {
-    font-size: 1em;
+    font-size: 0.8rem;
     color: white;
 }
 
 .sub-section.right button {
     position: relative;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.2px;
     text-transform: uppercase;
@@ -268,14 +260,15 @@ body {
 
 .card .title h1 {
     font-family: VNFQuicksand;
-    font-size: 25px;
+    font-size: 2rem;
+    line-height: 2rem;
     font-weight: bold;
     text-align: center;
 }
 
 .card .desc p {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-align: justify;
     color: #000000;
     overflow: hidden;
@@ -292,17 +285,19 @@ body {
 }
 
 #bookshelf .intro-list {
-    width: 50%;
+    width: 70%;
     position: absolute;
     top: 50%;
-    transform: translate(50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #bookshelf .intro-list li {
     font-family: VNFQuicksand;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    letter-spacing: -0.2px;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 2rem;
     text-align: justify;
     color: #673ab7;
 }
@@ -357,7 +352,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -372,6 +367,10 @@ body {
     height: 30%;
 }
 
+#student .card .title h1 {
+    font-size: 1.5rem;
+}
+
 #student .card .img {
     width: 100%;
     height: 100%;
@@ -382,7 +381,6 @@ body {
     border-radius: 50%;
     width: 100%;
     height: auto;
-    /*	padding-top: 100%;*/
     border-radius: 50%;
     background: #fff;
 }
@@ -403,25 +401,20 @@ body {
 #teacher .teacher-info {
     position: relative;
     width: 65%;
-    height: 500px;
-    margin: 200px auto;
+    height: 80%;
+    margin: 20% auto;
 }
 
 .teacher-info .teacher-name {
     font-family: VNFQuicksand;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     text-align: left;
-    color: #673ab7;
     margin-bottom: 30px;
 }
 
-.teacher-info .teacher-name span {
-    color: #00bcd4;
-}
-
 .teacher-info .teacher-detail {
-    font-size: 1.2em;
+    font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
     color: #000000;
@@ -438,14 +431,6 @@ body {
     transform: translate(-100%, 0);
 }
 
-
-
-
-
-/*#btn-next-teacher {
-	position: absolute;
-}*/
-
 .form {
     width: 50%;
     padding: 25px;
@@ -454,7 +439,7 @@ body {
 
 .form .form-title {
     font-family: VNFQuicksand;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     text-align: left;
     color: #00bcd4;
@@ -503,7 +488,7 @@ body {
     left: 0;
     line-height: 36px;
     font-family: simple-line-icons;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #673ab7;
     margin: 2px 20px;
 }
@@ -596,7 +581,7 @@ body {
 
 footer.footer {
     width: 100%;
-    height: 800px;
+    height: 100%;
     background-color: #00bcd4;
     padding: 100px;
     box-sizing: border-box;
@@ -622,14 +607,17 @@ footer.footer {
 #copyright p {
     text-align: left;
     color: #ffffff;
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
-.list-link .title {
-    font-weight: 900;
+.footer .col .title a {
+    color: #ffffff;
+    ` font-weight: 900;
+    font-size: 1.1em;
     letter-spacing: 0.3px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .footer .licenses,
@@ -640,17 +628,17 @@ footer.footer {
 }
 
 .footer .licenses a {
-    font-size: 1em;
+    font-size: 1rem;
     margin-right: 30px;
 }
 
 #copyright p {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .footer .socials a {
     font-family: simple-line-icons;
-    font-size: 2em;
+    font-size: 2rem;
     letter-spacing: 0.4px;
     text-align: left;
     color: #ffffff;
@@ -667,13 +655,14 @@ footer.footer {
 }
 
 #btn-nextsection {
+    padding: 0;
     position: fixed;
     bottom: 5%;
     left: 3%;
 }
 
 #btn-nextsection a p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 #btn-support {
@@ -696,18 +685,11 @@ footer.footer {
     font-family: 'themify';
 }
 
-@media screen and (max-width: 1600px) {
-    .nav-link {
-        margin-left: 14px;
-        margin-right: 14px;
-    }
-
-    body {
+@media screen and (max-width: 1380px) {
+    html {
         font-size: 14px;
     }
-}
 
-@media screen and (max-width: 1380px) {
     .nav-link:not(#logo)>a {
         display: none;
     }
@@ -717,23 +699,15 @@ footer.footer {
     }
 
     #home>.sub-section.left>.info .intro {
-        font-size: 1.5em;
+        font-size: 2rem;
     }
 
     #teacher .teacher-info {
         margin-top: 50px;
     }
 
-    .teacher-info .teacher-detail {
-        font-size: 1em;
-    }
-
     .teacher-info .btn-next {
         display: none;
-    }
-
-    .footer * {
-        font-size: 1em;
     }
 
     .bubble .student {
@@ -752,8 +726,12 @@ footer.footer {
 }
 
 @media screen and (max-width: 1024) {
+    html {
+        font-size: 13px;
+    }
+
     .card-container .card .desc {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 }
 
@@ -772,6 +750,6 @@ footer.footer {
     }
 
     .card-container .card .desc {
-        font-size: 0.5em;
+        font-size: 0.5rem;
     }
 }
