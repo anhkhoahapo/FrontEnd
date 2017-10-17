@@ -29,22 +29,25 @@ html {
 }
 
 .nav-left {
+    padding: 0 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 50%;
+    box-sizing: border-box;
 }
 
 .nav-right {
+    padding: 0 20px;
     display: flex;
     width: 50%;
     justify-content: flex-end;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .nav-link {
     height: 40px;
-    margin-left: 14px;
-    margin-right: 14px;
     text-align: center;
 }
 
@@ -62,9 +65,9 @@ html {
     text-transform: uppercase;
 }
 
-#signup {
+/*#signup {
     padding: 0 30px;
-}
+}*/
 
 #logo img {
     height: 40px;
@@ -125,7 +128,7 @@ html {
     margin-top: 16.4%;
 }
 
-#home>.sub-section.left>.info .btns {
+#home>.sub-section.left>.info .btns .btn {
     margin-top: 8%;
 }
 
@@ -566,10 +569,10 @@ html {
 }
 
 .bubble .comment {
-    padding: 20px;
+    padding: 30px;
     max-height: 150px;
     overflow-y: scroll;
-    padding-right: 20px;
+    box-sizing: border-box;
 }
 
 .bubble .student {
@@ -745,6 +748,11 @@ footer.footer {
     font-family: 'themify';
 }
 
+.btn .ti-angle-double-right {
+    position: relative;
+    left: -4px;
+}
+
 @media screen and (max-width: 1600px) {
     html {
         font-size: 14px;
@@ -752,9 +760,12 @@ footer.footer {
 }
 
 @media screen and (max-width: 1380px) {
+    html {
+        font-size: 13px;
+    }
 
-    .nav-link:not(#logo)>a {
-        display: none;
+    .nav-link a {
+        font-size: 0.8em;
     }
 
     #home>.sub-section.left>.info div {
@@ -788,9 +799,13 @@ footer.footer {
     }
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
     html {
-        font-size: 13px;
+        font-size: 12px;
+    }
+    
+    .nav-link:not(#logo)>a {
+        display: none;
     }
 
     .card-container .card .desc {
