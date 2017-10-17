@@ -2,416 +2,431 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>HapoJC</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-  <link rel="stylesheet" href="assets/css/common.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HapoJC</title>
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <div id="main-nav" class="navbar">
-      <div class="nav-left">
-        <div id="logo" class="nav-link">
-          <a href="#home">
-						<img src="assets/img/logo.png" alt="Logo" height="40">
-					</a>
+    <header>
+        <div id="main-nav" class="navbar">
+            <div class="nav-left">
+                <div id="logo" class="nav-link">
+                    <a href="#home">
+                        <img src="assets/img/logo.png" alt="Logo" height="40">
+                    </a>
+                </div>
+                <div class="nav-link">
+                    <a href="#home">Bảng tin</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#courses">Khóa học</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#bookshelf">Tủ sách</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#student">Học viên</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#teacher">Giảng viên</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#blog">Blog</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#contact">Liên hệ</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-link">
+                    <button id="login" type="button" class="btn-lg c-bluey-purple">
+                        Đăng nhập
+                    </button>
+                </div>
+                <div class="nav-link">
+                    <button id="signup" type="button" class="btn-lg bg-blue c-white">
+                        Đăng ký
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="nav-link">
-          <a href="#home">Bảng tin</a>
+    </header>
+    <section id="home">
+        <div class="sub-section left">
+            <div class="info">
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="Logo" height="60">
+                </div>
+                <div class="intro">
+                    <div id="home-decorate-1" class="decorate-lg bg-blue"></div>
+                    <div id="home-decorate-2" class="decorate-sm bg-tomato"></div>
+                    <p class="c-blue">Summer is often synonymous with beachs, ballparks and barbecues
+                    </p>
+                    <div id="home-decorate-3" class="decorate-lg bg-blue"></div>
+                    <div id="home-decorate-4" class="decorate-sm bg-tomato"></div>
+                    <div id="home-decorate-5" class="decorate-lg bg-yellow"></div>
+                </div>
+                <div class="detail-intro">
+                    <p class="c-bluey-purple">Summer is often synonymous with beaches, ballparks and barbecues, all offering tempting snacks and treats. To many women who are watching their weight, the back-to-school season is an ideal time to enroll in their own “Making Smarter Food Choices 101″ class and refocus on a balanced diet and healthy lifestyle.</p>
+                </div>
+                <div>
+                    <a id="btn-see-more" class="btn btn-lg c-bluey-purple" type="button" href="#courses">Xem tiếp &rarr;</a>
+                    
+                    <a id="btn-try" class="btn btn-lg bg-lipstick c-white" type="button" href="#">Đăng ký học thử &#8608;</a>
+                    
+
+                    <a id="btn-nextsection" class="btn btn-lg" type="button" href="#courses">
+                        <p class="ti-mouse-alt"></p>
+                        <p class="ti-angle-double-down"></p>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="nav-link">
-          <a href="#courses">Khóa học</a>
+        <div class="sub-section right slider">
+            <div class="slide-item fade">
+                <div class="sr-only number">1 / 3</div>
+                <img src="assets/img/slide-section1.jpg">
+            </div>
+            <div class="slide-item fade">
+                <div class="sr-only number">2 / 3</div>
+                <img src="assets/img/japan1.jpg">
+            </div>
+            <div class="slide-item fade">
+                <div class="sr-only number">3 / 3</div>
+                <img src="assets/img/japan2.jpg">
+            </div>
+            <div class="dots">
+                <div id="header-decorate-6" class="decorate-lg bg-blue"></div>
+                <span class="bd-lipstick dot"></span>
+                <span class="bd-green dot"></span>
+                <span class="bd-blue dot"></span>
+            </div>
+            <button id="btn-prev" type="button" class="btn-sm btn-prev c-blue">
+                &larr; Prev
+            </button>
+            <button id="btn-next" type="button" class="btn-sm bg-lipstick c-white">
+                Next &rarr;
+            </button>
         </div>
-        <div class="nav-link">
-          <a href="#bookshelf">Tủ sách</a>
+    </section>
+    <section id="courses">
+        <div class="card-container">
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N5.png" alt="">
+                </div>
+                <div class="title">
+                    <h1 class="c-blue">Làm quen</h1>
+                </div>
+                <div class="desc">
+                    <p>Khoá học dành cho những bạn chưa biết gì về tiếng Nhật. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N5.</p>
+                </div>
+                <div class="btns">
+                    <a class="btn btn-huge bg-blue" type="button" href="#">đăng ký học thử &rarr;</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N4.png" alt="">
+                </div>
+                <div class="title">
+                    <h1 class="c-bluey-purple">Giao tiếp cơ bản</h1>
+                </div>
+                <div class="desc">
+                    <p>Khoá học dành cho các bạn đã hoàn thành khoá học Làm quen với tiếng Nhật. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N4, có thể tự giới thiệu bản thân bằng tiếng Nhật và giao tiếp mức độ đơn giản.</p>
+                </div>
+
+                <div class="btns">
+                    <a class="btn btn-huge bg-bluey-purple" type="button" href="#">đăng ký học thử &rarr;</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N3.png" alt="">
+                </div>
+                <div class="title">
+                    <h1 class="c-lipstick">Giao tiếp nâng cao</h1>
+                </div>
+                <div class="desc">
+                    <p>Khoá học dành cho các bạn đã hoàn thành khoá học Giao tiếp cơ bản. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N3, có thể giao tiếp thường ngày trôi chảy bằng tiếng Nhật.</p>
+                </div>
+
+                <div class="btns">
+                    <a class="btn btn-huge bg-lipstick" type="button" href="#">đăng ký học thử &rarr;</a>
+                </div>
+            </div>
         </div>
-        <div class="nav-link">
-          <a href="#student">Học viên</a>
+    </section>
+    <section id="bookshelf">
+        <div class="sub-section left">
+            <ul class="intro-list">
+                <li><span class="icons icon-star"></span>Phương pháp học hoàn toàn mới</li>
+                <li><span class="icons icon-badge"></span>Giảng viên trình độ cao</li>
+                <li><span class="icons icon-trophy"></span>Giáo trình mua bản quyền từ Nhật</li>
+                <li><span class="icons icon-like"></span>Chương trình học trực quan</li>
+                <li><span class="icons icon-clock"></span>Thời gian thực hành nhiều</li>
+            </ul>
         </div>
-        <div class="nav-link">
-          <a href="#teacher">Giảng viên</a>
+        <div class="sub-section right">
+            <div class="imgs">
+                <img id="img-coffee" src="./assets/img/photo-1500989145603-8e7ef71d639e.jpg" alt="img-coffee">
+                <img id="img-writing" src="./assets/img/pexels-photo-574285.jpg" alt="img-writing">
+                <img id="img-mac" src="./assets/img/mac-glasses.jpg" alt="img-mac">
+                <button id="btn-play" class="btn-lg bg-bluey-purple">
+                    <span class="ti-angle-double-right c-white"></span>
+                </button>
+            </div>
         </div>
-        <div class="nav-link">
-          <a href="#blog">Blog</a>
+    </section>
+    <section id="student">
+        <div class="card-container">
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N4.png" alt="">
+                </div>
+                <div class="title">
+                    <h1>Đăng ký</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N4.png" alt="">
+                </div>
+                <div class="title">
+                    <h1>HapoJC liên hệ tư vấn</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N4.png" alt="">
+                </div>
+                <div class="title">
+                    <h1>Kiểm tra xếp lớp</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N4.png" alt="">
+                </div>
+                <div class="title">
+                    <h1>Chọn lịch học</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/N4.png" alt="">
+                </div>
+                <div class="title">
+                    <h1>Đi học</h1>
+                </div>
+            </div>
         </div>
-        <div class="nav-link">
-          <a href="#contact">Liên hệ</a>
+    </section>
+    <section id="teacher">
+        <div class="sub-section left"></div>
+        <div class="sub-section right">
+            <div class="teacher-info">
+                <div id="teacher-decorate-1" class="decorate-md bg-lipstick"></div>
+                <div id="teacher-decorate-2" class="decorate-lg bg-blue"></div>
+                <h1 class="teacher-name c-bluey-purple">
+                    <span class="c-blue">Giảng viên </span> Nguyễn Thị Mai Linh
+                </h1>
+                <p class="teacher-detail">
+                    Unless you have the dubious pleasure of living right next door to an airport one of the biggest downsides of going on holiday is catching a flight at an ungodly hour of the day. While driving half asleep at 4.00 am, with a nagging doubt you have forgot something may be some holidaymaker’s idea of fun – for most it sounds like a bad way to start your holiday. However, help is at hand in the form of Airport Hotels, where you can spend a relaxed evening – and even afford an extra hour or two in bed before leaving. Airport hotels may not enjoy the best of reputations. In many peoples mind they are ranked alongside train station pubs – filled with chain smoking business men in cheap suits. However, while there is certainly a convincing argument to avoid train station pubs (you have to pay to get in the toilet for starters), airport hotels are a long way from their cheap and not-so-cheerful roots. These days the savvy traveller can pick up a great value deal at some excellent hotel accommodation situated close to their airport of departure.
+                </p>
+            </div>
+            <button id="btn-next-teacher" type="button" class="btn-sm bg-lipstick c-white">
+                Next &rarr;
+            </button>
         </div>
-      </div>
-      <div class="nav-right">
-        <div class="nav-link">
-          <button id="login" type="button" class="btn-lg">
-            <a href="#">Đăng nhập</a>
-          </button>
+        <div class="sub-section overlay"></div>
+    </section>
+    <section id="blog">
+        <div class="sub-section left">
+            <div id="cmt_nhung" class="bubble">
+                <div class="decorate-md bg-lipstick student-decorate-1"></div>
+                <div class="decorate-lg bg-blue student-decorate-2"></div>
+                <div class="comment">
+                    <p>Lớp học tiếng Nhật của công ty Haposoft đã giúp mình vững tin hơn nhiều trong giao tiếp tiếng Nhật. Tại đây, mình đã được học toàn diện 4 kĩ năng Nghe Nói Đọc Viết với phương pháp học thực tế và nhớ lâu. Sau khi kết thúc khoá học, mình vẫn có thể áp dụng các kiến thức và nền tảng để có thể tự học tiếp tại nhà. Lớp tiếng Nhật của Haposoft còn có người Nhật giảng dạy đã giúp mình có cơ hội nói chuyện trực tiếp để tăng phản xạ và sự tự tin trong giao tiếp. Ngoài sách vở ra bạn còn được các anh chị chia sẻ kinh nghiệm về cuộc sống bên Nhật một cách thú vị và đầy thực tế. Mình tặng cho lớp học Tiếng Nhật của Haposoft 5 sao.</p>
+                </div>
+                <div class="student">
+                    <h1 class="name">Bạn Phí Hồng Nhung</h1>
+                    <p class="score">180/180 điểm N3</p>
+                </div>
+                <div class="avatar">
+                    <img src="./assets/img/teacher.jpg" alt="Avatar">
+                </div>
+            </div>
+            <div id="cmt_son" class="bubble">
+                <div class="decorate-md bg-yellow student-decorate-1"></div>
+                <div class="decorate-lg bg-bluey-purple student-decorate-2"></div>
+                <div class="comment">
+                    <p>Lớp học bổ ích, giáo viên dạy dễ hiểu kiến thức thực tế. Tài liệu học phong phú đa dạng. Có nhiều cách học mới, rèn luyện nhiều kĩ năng như là viết văn đọc văn, phát âm. Học phí rẻ vừa phải, hợp túi tiền học sinh sinh viên</p>
+                </div>
+                <div class="student">
+                    <h1 class="name">Bạn Phạm văn sơn</h1>
+                    <p class="score">180/180 điểm N3</p>
+                </div>
+                <div class="avatar">
+                    <img src="./assets/img/teacher.jpg" alt="Avatar">
+                </div>
+            </div>
         </div>
-        <div class="nav-link">
-          <button id="signup" type="button" class="btn-lg bg-blue">
-            <a class="c-white" href="#">Đăng ký</a>
-          </button>
+        <div class="sub-section right">
+            <div id="cmt_son2" class="bubble">
+                <div class="decorate-md bg-yellow student-decorate-1"></div>
+                <div class="decorate-lg bg-tomato student-decorate-2"></div>
+                <div class="comment">
+                    <p>Lớp học bổ ích, giáo viên dạy dễ hiểu kiến thức thực tế. Tài liệu học phong phú đa dạng. Có nhiều cách học mới, rèn luyện nhiều kĩ năng như là viết văn đọc văn, phát âm. Học phí rẻ vừa phải, hợp túi tiền học sinh sinh viên</p>
+                </div>
+                <div class="student">
+                    <h1 class="name">Bạn Phạm văn sơn</h1>
+                    <p class="score">180/180 điểm N3</p>
+                </div>
+                <div class="avatar">
+                    <img src="./assets/img/teacher.jpg" alt="Avatar">
+                </div>
+            </div>
+            <div id="cmt_son3" class="bubble">
+                <div class="decorate-md bg-green student-decorate-1"></div>
+                <div class="decorate-lg bg-lipstick student-decorate-2"></div>
+                <div class="comment">
+                    <p>Lớp học bổ ích, giáo viên dạy dễ hiểu kiến thức thực tế. Tài liệu học phong phú đa dạng. Có nhiều cách học mới, rèn luyện nhiều kĩ năng như là viết văn đọc văn, phát âm. Học phí rẻ vừa phải, hợp túi tiền học sinh sinh viên</p>
+                </div>
+                <div class="student">
+                    <h1 class="name">Bạn Phạm văn sơn</h1>
+                    <p class="score">180/180 điểm N3</p>
+                </div>
+                <div class="avatar">
+                    <img src="./assets/img/teacher.jpg" alt="Avatar">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <section id="home">
-    <div class="sub-section left">
-      <div class="info">
+    </section>
+    <section id="contact">
+        <div class="sub-section left">
+            <form class="form">
+                <h1 class="form-title">Đăng ký tư vấn</h1>
+                <div class="form-group">
+                    <label class="sr-only" for="txt-sender">Name</label>
+                    <span class="form-group-addon icon-user"></span>
+                    <input type="text" name="txt-sender" id="txt-sender" placeholder="Tên của bạn">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="txt-email">Email</label>
+                    <span class="form-group-addon icon-envelope"></span>
+                    <input type="text" name="txt-email" id="txt-email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="txt-phone">Phone Number</label>
+                    <span class="form-group-addon icon-screen-smartphone"></span>
+                    <input type="text" name="txt-phone" id="txt-phone" placeholder="Số điện thoại">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="txt-course">Interested in course</label>
+                    <span class="form-group-addon icon-heart"></span>
+                    <input type="text" name="txt-course" id="txt-course" placeholder="Khoá học bạn quan tâm">
+                </div>
+                <div class="form-group fg-large">
+                    <span class="form-group-addon icon-speech"></span>
+                    <label class="sr-only" for="txt-message">Message</label>
+                    <textarea placeholder="Để lại tin nhắn"></textarea>
+                </div>
+                <button id="btn-send" type="submit" class="btn-huge bg-blue c-white">gửi đăng ký &rarr;</button>
+            </form>
+        </div>
+        <div class="sub-section right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8130201684157!2d105.81927231498011!3d21.000130994130807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac85be3a80f7%3A0x26f3b5f7c126cf4c!2zMjMgVMO0IFbEqW5oIERp4buHbiwgS2jGsMahbmcgVHJ1bmcsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1507954959752" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer class="footer">
         <div class="logo">
-          <img src="assets/img/logo.png" alt="Logo" height="60">
+            <img src="./assets/img/logo.png" alt="">
         </div>
-        <div class="intro">
-          <p class="c-blue">Summer is often synonymous with beachs, ballparks and barbecues
-          </p>
+        <div class="row">
+            <div class="col">
+                <h3 class="title"><a href="#">Trang chủ</a> </h3>
+                <ul class="list-link">
+                    <li class="item"> <a href="#">Khoá học</a> </li>
+                    <li class="item"> <a href="#">Why choose us?</a> </li>
+                    <li class="item"> <a href="#">How it works</a> </li>
+                    <li class="item"> <a href="#">Giảng viên</a> </li>
+                    <li class="item"> <a href="#">Testimonials</a> </li>
+                    <li class="item"> <a href="#">Liên hệ</a> </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="title"> <a href="#">Bảng tin</a></h3>
+                <ul class="list-link">
+                    <li class="item"> <a href="#">Lịch khai giảng</a> </li>
+                    <li class="item"> <a href="#">Lịch sự kiện</a> </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="title"> <a href="#">Khoá học</a> </h3>
+                <ul class="list-link">
+                    <li class="item"> <a href="#">Làm quen</a> </li>
+                    <li class="item"> <a href="#">Giao tiếp N4</a> </li>
+                    <li class="item"> <a href="#">Giao tiếp N3</a> </li>
+                    <li class="item"> <a href="#">Giao tiếp N2</a> </li>
+                    <li class="item"> <a href="#">Giao tiếp N1</a> </li>
+                    <li class="item"> <a href="#">Tiếng Nhật IT</a> </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="title"> <a href="#">Tủ sách</a> </h3>
+                <ul class="list-link">
+                    <li class="item"> <a href="#">Giáo trình</a> </li>
+                    <li class="item"> <a href="#">Tài liệu Kanji</a> </li>
+                    <li class="item"> <a href="#">Tài liệu nghe</a> </li>
+                    <li class="item"> <a href="#">Tài liệu nói</a> </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="title"> <a href="#">Học viên</a> </h3>
+                <ul class="list-link">
+                    <li class="item"> <a href="#">Học viên xuất sắc</a> </li>
+                    <li class="item"> <a href="#">Ý kiến học viên</a> </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="title"> <a href="#">Giảng viên</a></h3>
+            </div>
+            <div class="col">
+                <h3 class="title"> <a href="#">Blog</a></h3>
+            </div>
         </div>
-        <div class="detail-intro">
-          <p class="c-bluey-purple">Summer is often synonymous with beaches, ballparks and barbecues, all offering tempting snacks and treats. To many women who are watching their weight, the back-to-school season is an ideal time to enroll in their own “Making Smarter Food Choices 101″ class and refocus on a balanced diet and healthy lifestyle.</p>
+        <div class="licenses">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
         </div>
-        <div>
-          <button id="btn-see-more" type="button" class="btn-lg">
-            <a class="c-bluey-purple" href="#courses">Xem tiếp &rarr;</a>
-          </button>
-          <button id="btn-try type="button" class="btn-lg bg-lipstick">
-            <a class="c-white" href="#">Đăng ký học thử &#8608;</a>
-          </button>
+        <div class="socials">
+            <a href="#"><span class="icon-social-facebook"></span></a>
+            <a href="#"><span class="icon-social-twitter"></span></a>
+            <a href="#"><span class="icon-social-linkedin"></span></a>
+            <a href="#"><span class="icon-social-youtube"></span></a>
         </div>
-      </div>
-    </div>
-    <div class="sub-section right slider">
-    	<div class="slide fade">
-			  <div class="sr-only number">1 / 3</div>
-			  <img src="assets/img/slide-section1.jpg">
-			</div>
+        <div id="copyright">
+            <p>&copy; Copyright 2017 Haposoft. All right reserved</p>
+        </div>
+    </footer>
 
-<!-- 			<div class="slide fade">
-			  <div class="sr-only number">2 / 3</div>
-			  <img src="assets/img/japan1.jpg">
-			</div>
+    <a id="btn-scrolltop" class="btn btn-md bg-blue" href="#home">
+        <span class="ti-angle-double-up"></span>
+    </a>
 
-			<div class="slide fade">
-			  <div class="sr-only number">3 / 3</div>
-			  <img src="assets/img/japan2.jpg">
-			</div>
- -->
-			<div class="dots">
-				<span class="small-bubble"></span>
-			  <span class="dot"></span> 
-			  <span class="dot"></span> 
-			  <span class="dot"></span> 
-			</div>
-
-      <button id="btn-prev" type="button" class="btn-sm btn-prev c-blue">
-        &larr; Prev
-      </button>
-      <button id="btn-next" type="button" class="btn-sm bg-lipstick c-white">
-        Next &rarr;
-      </button>
-    </div>
-  </section>
-  <section id="courses">
-    <div class="card-container">
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N5.png" alt="">
-        </div>
-        <div class="title">
-          <h1 class="c-blue">Làm quen</h1>
-        </div>
-        <div class="desc">
-          <p>Khoá học dành cho những bạn chưa biết gì về tiếng Nhật. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N5.</p>
-        </div>
-        <div class="btns">
-          <button type="button" class="btn-huge bg-blue">
-            <a href="#">đăng ký học thử &rarr;</a>
-          </button>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N4.png" alt="">
-        </div>
-        <div class="title">
-          <h1 class="c-bluey-purple">Giao tiếp cơ bản</h1>
-        </div>
-        <div class="desc">
-          <p>Khoá học dành cho các bạn đã hoàn thành khoá học Làm quen với tiếng Nhật. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N4, có thể tự giới thiệu bản thân bằng tiếng Nhật và giao tiếp mức độ đơn giản.</p>
-        </div>
-        <div class="btns">
-          <button type="button" class="btn-huge bg-bluey-purple">
-            <a href="#">đăng ký học thử &rarr;</a>
-          </button>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N3.png" alt="">
-        </div>
-        <div class="title">
-          <h1 class="c-lipstick">Giao tiếp nâng cao</h1>
-        </div>
-        <div class="desc">
-          <p>Khoá học dành cho các bạn đã hoàn thành khoá học Giao tiếp cơ bản. Kết thúc khoá học, trình độ của học viên sẽ tương đương với trình độ N3, có thể giao tiếp thường ngày trôi chảy bằng tiếng Nhật.</p>
-        </div>
-        <div class="btns">
-          <button type="button" class="btn-huge bg-lipstick">
-            <a href="#">đăng ký học thử &rarr;</a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="bookshelf">
-    <div class="sub-section left">
-      <ul class="intro-list">
-        <li><span class="icons icon-star"></span>Phương pháp học hoàn toàn mới</li>
-        <li><span class="icons icon-badge"></span>Giảng viên trình độ cao</li>
-        <li><span class="icons icon-trophy"></span>Giáo trình mua bản quyền từ Nhật</li>
-        <li><span class="icons icon-like"></span>Chương trình học trực quan</li>
-        <li><span class="icons icon-clock"></span>Thời gian thực hành nhiều</li>
-      </ul>
-    </div>
-    <div class="sub-section right">
-      <div id="img-coffee" class="img">
-        <img src="./assets/img/photo-1500989145603-8e7ef71d639e.jpg" alt="img-coffee">
-      </div>
-      <div id="img-writing" class="img">
-        <img src="./assets/img/pexels-photo-574285.jpg" alt="img-writing">
-      </div>
-      <div id="img-mac" class="img">
-        <img src="./assets/img/mac-glasses.jpg" alt="img-mac">
-      </div>
-    </div>
-  </section>
-  <section id="student">
-    <div class="card-container">
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N4.png" alt="">
-        </div>
-        <div class="title">
-          <h1>Đăng ký</h1>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N4.png" alt="">
-        </div>
-        <div class="title">
-          <h1>HapoJC liên hệ tư vấn</h1>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N4.png" alt="">
-        </div>
-        <div class="title">
-          <h1>Kiểm tra xếp lớp</h1>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N4.png" alt="">
-        </div>
-        <div class="title">
-          <h1>Chọn lịch học</h1>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="assets/img/N4.png" alt="">
-        </div>
-        <div class="title">
-          <h1>Đi học</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="teacher">
-    <div class="sub-section left"></div>
-    <div class="sub-section right">
-      <div class="teacher-info">
-        <h1 class="teacher-name">
-          <span>Giảng viên </span> Nguyễn Thị Mai Linh
-        </h1>
-        <p class="teacher-detail">
-          Unless you have the dubious pleasure of living right next door to an airport one of the biggest downsides of going on holiday is catching a flight at an ungodly hour of the day. While driving half asleep at 4.00 am, with a nagging doubt you have forgot something may be some holidaymaker’s idea of fun – for most it sounds like a bad way to start your holiday. However, help is at hand in the form of Airport Hotels, where you can spend a relaxed evening – and even afford an extra hour or two in bed before leaving. Airport hotels may not enjoy the best of reputations. In many peoples mind they are ranked alongside train station pubs – filled with chain smoking business men in cheap suits. However, while there is certainly a convincing argument to avoid train station pubs (you have to pay to get in the toilet for starters), airport hotels are a long way from their cheap and not-so-cheerful roots. These days the savvy traveller can pick up a great value deal at some excellent hotel accommodation situated close to their airport of departure.
-        </p>
-        <button id="btn-next-teacher" type="button" class="btn-sm bg-lipstick c-white">
-          Next &rarr;
-        </button>
-      </div>
-    </div>
-    <div class="sub-section overlay"></div>
-  </section>
-  <section id="blog">
-    <div class="sub-section left">
-      <div id="cmt_nhung" class="bubble">
-        <div class="comment">
-          <p>Lớp học tiếng Nhật của công ty Haposoft đã giúp mình vững tin hơn nhiều trong giao tiếp tiếng Nhật. Tại đây, mình đã được học toàn diện 4 kĩ năng Nghe Nói Đọc Viết với phương pháp học thực tế và nhớ lâu. Sau khi kết thúc khoá học, mình vẫn có thể áp dụng các kiến thức và nền tảng để có thể tự học tiếp tại nhà. Lớp tiếng Nhật của Haposoft còn có người Nhật giảng dạy đã giúp mình có cơ hội nói chuyện trực tiếp để tăng phản xạ và sự tự tin trong giao tiếp. Ngoài sách vở ra bạn còn được các anh chị chia sẻ kinh nghiệm về cuộc sống bên Nhật một cách thú vị và đầy thực tế. Mình tặng cho lớp học Tiếng Nhật của Haposoft 5 sao.</p>
-        </div>
-        <div class="student">
-          <h1 class="name">Bạn Phí Hồng Nhung</h1>
-          <p class="score">180/180 điểm N3</p>
-        </div>
-        <div class="avatar">
-          <img src="./assets/img/teacher.jpg" alt="Avatar">
-        </div>
-      </div>
-      <div id="cmt_son" class="bubble">
-        <div class="comment">
-          <p>Lớp học bổ ích, giáo viên dạy dễ hiểu kiến thức thực tế. Tài liệu học phong phú đa dạng. Có nhiều cách học mới, rèn luyện nhiều kĩ năng như là viết văn đọc văn, phát âm. Học phí rẻ vừa phải, hợp túi tiền học sinh sinh viên</p>
-        </div>
-        <div class="student">
-          <h1 class="name">Bạn Phạm văn sơn</h1>
-          <p class="score">180/180 điểm N3</p>
-        </div>
-        <div class="avatar">
-          <img src="./assets/img/teacher.jpg" alt="Avatar">
-        </div>
-      </div>
-    </div>
-    <div class="sub-section right">
-      <div id="cmt_son2" class="bubble">
-        <div class="comment">
-          <p>Lớp học bổ ích, giáo viên dạy dễ hiểu kiến thức thực tế. Tài liệu học phong phú đa dạng. Có nhiều cách học mới, rèn luyện nhiều kĩ năng như là viết văn đọc văn, phát âm. Học phí rẻ vừa phải, hợp túi tiền học sinh sinh viên</p>
-        </div>
-        <div class="student">
-          <h1 class="name">Bạn Phạm văn sơn</h1>
-          <p class="score">180/180 điểm N3</p>
-        </div>
-        <div class="avatar">
-          <img src="./assets/img/teacher.jpg" alt="Avatar">
-        </div>
-      </div>
-      <div id="cmt_son3" class="bubble">
-        <div class="comment">
-          <p>Lớp học bổ ích, giáo viên dạy dễ hiểu kiến thức thực tế. Tài liệu học phong phú đa dạng. Có nhiều cách học mới, rèn luyện nhiều kĩ năng như là viết văn đọc văn, phát âm. Học phí rẻ vừa phải, hợp túi tiền học sinh sinh viên</p>
-        </div>
-        <div class="student">
-          <h1 class="name">Bạn Phạm văn sơn</h1>
-          <p class="score">180/180 điểm N3</p>
-        </div>
-        <div class="avatar">
-          <img src="./assets/img/teacher.jpg" alt="Avatar">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="sub-section left">
-      <form class="form">
-        <h1 class="form-title">Đăng ký tư vấn</h1>
-        <div class="form-group">
-          <label class="sr-only" for="txt-sender">Name</label>
-          <span class="form-group-addon icon-user"></span>
-          <input type="text" name="txt-sender" id="txt-sender" placeholder="Tên của bạn">
-        </div>
-        <div class="form-group">
-          <label class="sr-only" for="txt-email">Email</label>
-          <span class="form-group-addon icon-envelope"></span>
-          <input type="text" name="txt-email" id="txt-email" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <label class="sr-only" for="txt-phone">Phone Number</label>
-          <span class="form-group-addon icon-screen-smartphone"></span>
-          <input type="text" name="txt-phone" id="txt-phone" placeholder="Số điện thoại">
-        </div>
-        <div class="form-group">
-          <label class="sr-only" for="txt-course">Interested in course</label>
-          <span class="form-group-addon icon-heart"></span>
-          <input type="text" name="txt-course" id="txt-course" placeholder="Khoá học bạn quan tâm">
-        </div>
-        <div class="form-group fg-large">
-          <span class="form-group-addon icon-speech"></span>
-          <label class="sr-only" for="txt-message">Message</label>
-          <textarea placeholder="Để lại tin nhắn"></textarea>
-        </div>
-        <button id="btn-send" type="submit" class="btn-huge bg-blue c-white">gửi đăng ký &rarr;</button>
-      </form>
-    </div>
-    <div class="sub-section right"></div>
-  </section>
-  <button id="btn-support" type="button" class="btn-md">
-    <a href="#contact">Hỗ trợ ?</a>
-  </button>
-  <footer class="footer">
-    <div class="logo">
-      <img src="./assets/img/logo.png" alt="">
-    </div>
-    <div class="row">
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"><a href="#">Trang chủ</a> </li>
-          <li class="item"> <a href="#">Khoá học</a> </li>
-          <li class="item"> <a href="#">Why choose us?</a> </li>
-          <li class="item"> <a href="#">How it works</a> </li>
-          <li class="item"> <a href="#">Giảng viên</a> </li>
-          <li class="item"> <a href="#">Testimonials</a> </li>
-          <li class="item"> <a href="#">Liên hệ</a> </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"> <a href="#">Bảng tin</a></li>
-          <li class="item"> <a href="#">Lịch khai giảng</a> </li>
-          <li class="item"> <a href="#">Lịch sự kiện</a> </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"> <a href="#">Khoá học</a> </li>
-          <li class="item"> <a href="#">Làm quen</a> </li>
-          <li class="item"> <a href="#">Giao tiếp N4</a> </li>
-          <li class="item"> <a href="#">Giao tiếp N3</a> </li>
-          <li class="item"> <a href="#">Giao tiếp N2</a> </li>
-          <li class="item"> <a href="#">Giao tiếp N1</a> </li>
-          <li class="item"> <a href="#">Tiếng Nhật IT</a> </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"> <a href="#">Tủ sách</a> </li>
-          <li class="item"> <a href="#">Giáo trình</a> </li>
-          <li class="item"> <a href="#">Tài liệu Kanji</a> </li>
-          <li class="item"> <a href="#">Tài liệu nghe</a> </li>
-          <li class="item"> <a href="#">Tài liệu nói</a> </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"> <a href="#">Học viên</a> </li>
-          <li class="item"> <a href="#">Học viên xuất sắc</a> </li>
-          <li class="item"> <a href="#">Ý kiến học viên</a> </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"> <a href="#">Giảng viên</a></li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul class="list-link">
-          <li class="title"> <a href="#">Blog</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="licenses">
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Settings</a>
-    </div>
-    <div class="socials">
-      <a href="#"><span class="icon-social-facebook"></span></a>
-      <a href="#"><span class="icon-social-twitter"></span></a>
-      <a href="#"><span class="icon-social-linkedin"></span></a>
-      <a href="#"><span class="icon-social-youtube"></span></a>
-    </div>
-    <div id="copyright">
-      <p>&copy; Copyright 2017 Haposoft. All right reserved</p>
-    </div>
-  </footer>
-
-  <script src="assets/js/script.js"></script>
+    <a id="btn-support" class="btn btn-md bg-yellow" type="button" href="#contact">
+        Hỗ trợ <span class="ti-help-alt"></span>
+    </a>
+    <!-- <script src="assets/js/jquery-3.2.1.js"></script> -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
