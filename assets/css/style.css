@@ -29,7 +29,7 @@ html {
 }
 
 .nav-left {
-    padding: 0 20px;
+    padding: 0 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,7 +90,7 @@ html {
 #home>.sub-section.left>.info .intro {
     position: relative;
     font-family: Quicksand;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: left;
 }
@@ -246,11 +246,11 @@ html {
 }*/
 
 .card-container {
-    height: 87.5%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    margin-top: 12.5%;
+    padding-top: 12.5%;
 }
 
 .card-container .card {
@@ -395,8 +395,8 @@ html {
 }
 
 #student .card {
-    width: 16%;
-    margin: 0 2%;
+    width: 20%;
+    margin: 0;
 }
 
 #student .card .title h1 {
@@ -404,7 +404,7 @@ html {
 }
 
 #student .card .img {
-    width: 60%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 }
@@ -764,20 +764,8 @@ footer.footer {
         font-size: 13px;
     }
 
-    .nav-link a {
-        font-size: 0.8em;
-    }
-
-    #home>.sub-section.left>.info div {
-        margin: 20px 0px;
-    }
-
     #home>.sub-section.left>.info .intro {
         font-size: 2rem;
-    }
-
-    #teacher .teacher-info {
-        margin-top: 50px;
     }
 
     .teacher-info .btn-next {
@@ -793,9 +781,11 @@ footer.footer {
     .bubble .avatar img {
         display: none;
     }
+}
 
-    .form {
-        width: 65%;
+@media screen and (max-width: 1280px){
+    .nav-link a {
+        font-size: 0.9em;
     }
 }
 
@@ -821,10 +811,6 @@ footer.footer {
 
     #home>.sub-section.left .logo {
         display: none;
-    }
-
-    #courses>.card-container {
-        padding: 0 30px;
     }
 
     .card-container .card .desc {
