@@ -97,6 +97,10 @@ iframe {
     justify-content: space-between;
 }
 
+.clear-fix {
+    clear: both;
+}
+
 .col {
     flex: 1;
 }

@@ -540,12 +540,17 @@ html {
 }
 
 #blog .bubble {
-    margin: 100px 0;
+    margin-bottom: 12%;
     position: relative;
     border-radius: 30px;
-    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
     padding: 15px;
-    max-height: 250px;
+    max-height: 40%;
+}
+
+#blog .bubble:hover,
+#blog .bubble:hover .avatar img {
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bubble .student-decorate-1 {
@@ -570,13 +575,11 @@ html {
     height: 100px;
     border-radius: 50%;
     background-color: #d8d8d8;
-    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.3);
 }
 
 .bubble .comment {
     padding: 30px;
-    max-height: 150px;
-    overflow-y: scroll;
+    max-height: 80%;
     box-sizing: border-box;
 }
 
@@ -592,7 +595,12 @@ html {
     line-height: 1.5;
 }
 
+.bubble .student .score {
+    font-style: italic;
+}
+
 #cmt_nhung.bubble {
+    margin-top: 15.625%;
     margin-left: 23%;
 }
 
@@ -601,6 +609,7 @@ html {
 }
 
 #cmt_son2.bubble {
+    margin-top: 26.25%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -608,6 +617,7 @@ html {
 #cmt_son3.bubble {
     margin-left: 20%;
     margin-right: 24%;
+    margin-bottom: 14%;
 }
 
 #contact .sub-section.right {
@@ -686,10 +696,6 @@ footer.footer {
     letter-spacing: 0.3px;
     text-transform: uppercase;
     margin-bottom: 20px;
-}
-
-.clear-fix {
-    clear: both;
 }
 
 .footer .licenses,
