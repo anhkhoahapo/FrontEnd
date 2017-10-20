@@ -14,7 +14,7 @@ $(document).ready(function() {
         const animateTime = 400;
         const periodQuiet = 400;
 
-        $(".navbar").find("a").click(event => {
+        $(".navbar").find("a").click(function(event) {
             event.preventDefault();
 
             let timeNow = new Date().getTime();
@@ -48,8 +48,12 @@ $(document).ready(function() {
                     return;
                 }
                 
-                if(e.keyCode === 40 || e.keyCode === 39) toSection(++curSection);
-                if(e.keyCode === 38 || e.keyCode === 37) toSection(--curSection);
+                if(e.keyCode === 40 || e.keyCode === 39) 
+                    if(curSection < sections.length - 1)
+                        toSection(++curSection);
+                if(e.keyCode === 38 || e.keyCode === 37) 
+                    if(curSection > 0)
+                        toSection(--curSection);
                 lastAnimation = timeNow;
             }
         }
