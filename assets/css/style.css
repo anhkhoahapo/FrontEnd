@@ -62,12 +62,13 @@ html {
 
 #login,
 #signup {
+    margin-right: 8px;
     text-transform: uppercase;
 }
 
-/*#signup {
-    padding: 0 30px;
-}*/
+#btn-search span {
+    font-size: 1.5rem;
+}
 
 #logo img {
     height: 40px;
@@ -507,6 +508,7 @@ html {
     height: 80%;
     padding-top: 5%;
     font-family: Lato;
+    resize: none;
 }
 
 .form .form-group:hover {
@@ -637,6 +639,8 @@ html {
 }
 
 footer.footer {
+    position: absolute;
+    z-index: 1010;
     width: 100%;
     height: 100%;
     background-color: #00bcd4;
@@ -763,10 +767,6 @@ footer.footer {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
     color: white;
     text-transform: uppercase;
-}
-
-#btn-scrolltop a {
-    font-family: 'themify';
 }
 
 .btn .ti-angle-double-right {
